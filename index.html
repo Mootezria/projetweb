@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Déploiement WEB - SEM 3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Projet : Déploiement WEB</h1>
+        <h2>SEM 3</h2>
+        <h3>Réalisé par : Mootez Riahi</h3>
+    </header>
+    <main>
+       
+        
+        <section id="cv-download">
+            <h2>Télécharger Mon CV</h2>
+            <button onclick="downloadCV()">Télécharger</button>
+        </section>
+        
+        <section id="activites">
+            <h2>Activités</h2>
+            <p>Exemples d'activités réalisées :</p>
+            <ul>
+                <li>Création de sites web statiques</li>
+                <li>Projets d'analyse de données</li>
+                <li>Participation à des hackathons</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>Contact : riahimootez28@gmail.com</p>
+    </footer>
+    
+    <script>
+        function downloadCV() {
+            window.location.href = 'cv.pdf.pdf'; // Le fichier cv.pdf doit être dans le même dossier
+        }
+    </script>
+</body>
+</html>
